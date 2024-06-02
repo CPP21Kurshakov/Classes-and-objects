@@ -42,7 +42,7 @@ int main()
 	char choice;
 	char choice2;
 
-	std::cout << "Вы хотите указать начальное значение счётчика? Введите да (y) или нет (n): ";
+	std::cout << "Вы хотите указать начальное значение счётчика? Введите да или нет: ";
 	std::cin >> choice >> choice2;
 
 	if (choice == (int) choice && choice2 == (int) choice2)
